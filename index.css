@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: century;
+    }
+    body{
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("https://www.luxcafeclub.com/cdn/shop/articles/Minimalist_Modern_Coffee_Shop_1_1100x.png?v=1713243107");
+        background-size: cover;
+        width: 100%;
+        background-repeat: no-repeat;
+        height: 740px;
+    
+    }
+    ul{
+       
+        float: right;
+        list-style-type: none;
+        font-size: 25px;
+        margin-right: 0px;
+        margin-top: 30px;
+        min-height: 400px;
+    }
+    ul li{
+        display: inline-flex;
+    }
+    ul li a{
+        text-decoration: none;
+        color: aliceblue;
+        padding: 5px 20px;
+        border: 1px solid transparent;
+        transition: 0.5 ease;
+    }
+    ul li a:hover{
+        background-color: antiquewhite;
+        color: black;
+    }
+    ul li.active a{
+    background-color: white;
+    color: black;
+    }
+    .logo img{
+        float: left;
+        width: 150px;
+        height: auto;
+    }
+     .logo >img{
+        border-radius: 80px;
+    }
+    .main{
+        max-width: 1200px;
+        
+    }
+    .title{
+        position: absolute;
+        top: 47%;
+        left: 40%;
+        
+    }
+    .title h1{
+        color: aliceblue;
+        font-size: 40px;
+    }
+    .opt{
+    
+       position: absolute;
+        left: 38%;
+        top: 56%;
+       
+    }
+    .select{
+        border: 2px solid black;
+        height: 40px;
+        width: 250px;
+        font-size: large;
+        border-radius: 20px;
+        background-color:rgb(141, 185, 186);
+        text-align: center;
+    }
